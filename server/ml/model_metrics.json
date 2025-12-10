@@ -1,0 +1,24 @@
+{
+  "linear_regression": {
+    "rmse_test": 7087.738017068298,
+    "rmse_cv_mean": 7161.14038973368,
+    "rmse_cv_std": 133.26744728238037
+  },
+  "random_forest": {
+    "rmse_test": 7793.608379124704,
+    "rmse_cv_mean": 7949.094675087143,
+    "rmse_cv_std": 224.7201643344155
+  },
+  "gradient_boosting": {
+    "rmse_test": 7320.575324722641,
+    "rmse_cv_mean": 7392.516633798373,
+    "rmse_cv_std": 223.37130007268203
+  },
+  "best_model": "linear_regression",
+  "features": [
+    "years_experience",
+    "education_level",
+    "role_level",
+    "company_size"
+  ]
+}
